@@ -1,0 +1,15 @@
+.tools_page_wp-debug-logging .wrap h1 {
+	margin-bottom: 20px;
+}
+
+.tools_page_wp-debug-logging #log-viewer {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	padding: 5px 20px;
+}
+
+.tools_page_wp-debug-logging #log-viewer pre {
+	font-family: monospace;
+	white-space: pre-wrap;
+}
