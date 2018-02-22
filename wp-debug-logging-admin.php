@@ -138,7 +138,7 @@ class WP_Debug_Logging_Admin {
 			wp_die( __( 'Action failed. Please refresh the page and retry.', 'wp-debug-logging' ) );
 		}
 
-		trigger_error( esc_html( 'This is a test PHP notice. It was purposely triggered by the WP Debug Logging plugin', 'wp-debug-logging' ) );
+		trigger_error( esc_html__( 'This is a test PHP notice. It was purposely triggered by the WP Debug Logging plugin', 'wp-debug-logging' ) );
 
 		return array(
 			'status' => 'updated',
